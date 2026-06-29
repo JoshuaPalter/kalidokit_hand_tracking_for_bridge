@@ -1,4 +1,4 @@
-## Kalidokit Handtracking Outline
+# Kalidokit Handtracking Outline
 
 This is my stitched together implementation of VTubing software made to render out hand kinematics. 95%+ of the work was done by this repository: https://github.com/yeemachine/kalidokit
 
@@ -10,13 +10,13 @@ However despite everything it somehow manages to work, and you can use it to get
 
 There are however a few things to note about this code.
 
-# The poltergeist
+## The poltergeist
 
 First - I don't know why, and frankly at this point I don't want to know why but for some god forsaken reason this code has reset to a "default project" and just wiped the code I was using, twice (both the main.ts and index.html). Maybe my computer is haunted, although more likely I was just doing something dumb when I did this. Just consider this a fair warning from me to keep a backup of this thing somewhere just in case so you don't have to try your best to stitch this thing back together like I've had to. Preferably make that backup immutable in case whatever spirits I've angered in writing this mess come for you next.
 
 Anyways, my deranged superstitions aside, here's how to actually operate this code. This was all run on windows 10 LTSC, so I can't speak for any functionality on any other OS.
 
-# Actually running this thing
+## Actually running this thing
 
 You get a hand kinematics folder, put it somewhere. Then, open that location up with powershell or whatever other terminal you use.
 Install these things: npm install @mediapipe/hands @mediapipe/drawing_utils @mediapipe/camera_utils kalidokit
