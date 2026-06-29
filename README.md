@@ -8,15 +8,15 @@ It's the result of chatGPT prompts, fixing the dozen errors that produces, and t
 
 However despite everything it somehow manages to work, and you can use it to get an idea of how this software functions.
 
-There are however a few things to note about this code.
+There are however something to note about this code, just in case.
 
-## The poltergeist
+## "The Poltergeist"
 
-First - I don't know why, and frankly at this point I don't want to know why but for some god forsaken reason this code has reset to a "default project" and just wiped the code I was using, twice (both the main.ts and index.html). Maybe my computer is haunted, although more likely I was just doing something dumb when I did this. Just consider this a fair warning from me to keep a backup of this thing somewhere just in case so you don't have to try your best to stitch this thing back together like I've had to. Preferably make that backup immutable in case whatever spirits I've angered in writing this mess come for you next.
-
-Anyways, my deranged superstitions aside, here's how to actually operate this code. This was all run on windows 10 LTSC, so I can't speak for any functionality on any other OS.
+I don't know why, and frankly at this point I don't want to know why but for some god forsaken reason this code has reset to a "default project" and just wiped the code I was using, twice (both the main.ts and index.html). Maybe my computer is haunted, although more likely I was just doing something dumb when I did this. Just consider this a fair warning from me to keep a backup of this thing somewhere just in case so you don't have to try your best to stitch this thing back together like I've had to. Preferably make that backup immutable in case whatever spirits I've angered in writing this mess come for you next.
 
 ## Actually running this thing
+
+Anyways, my deranged superstitions aside, here's how to actually operate this code. This was all run on windows 10 LTSC, so I can't speak for any functionality on any other OS.
 
 -You get a hand kinematics folder, put it somewhere. Then, open that location up with powershell or whatever other terminal you use.
 
