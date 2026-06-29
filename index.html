@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hand Kinematics Recorder</title>
+  </head>
+  <body>
+    <video id="webcam" playsinline style="display: none;"></video>
+
+    <!-- <canvas id="output" width="960" height="540"></canvas> -->
+    <canvas
+      id="output"
+      width="960"
+      height="540"
+      style="border: 1px solid black; display: block;"
+    ></canvas>
+
+    <div style="display: flex; gap: 16px; align-items: flex-start;">
+      <div>
+        <h2>Left Hand</h2>
+        <pre id="leftPanel">—</pre>
+      </div>
+
+      <div>
+        <h2>Right Hand</h2>
+        <pre id="rightPanel">—</pre>
+      </div>
+    </div>
+
+    <p>
+      Press <strong>r</strong> to start/stop recording.
+      Press <strong>d</strong> to download JSON.
+    </p>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
